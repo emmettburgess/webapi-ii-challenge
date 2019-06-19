@@ -13,4 +13,4 @@ server.get('/', (req, res) => {
     )
 })
 
-server.use('/api/posts', postRouter)
+server.use('/api/posts', postRouter);
